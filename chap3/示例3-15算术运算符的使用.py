@@ -1,0 +1,8 @@
+print(1+1)
+print(1-1)
+print(2*3)
+print(10/2)
+print(10//3)
+print(10%3)
+print(2**4)
+print(10/0)

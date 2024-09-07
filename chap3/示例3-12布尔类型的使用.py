@@ -1,0 +1,13 @@
+x = True
+print(x)
+print(type(x))
+print(x+10)
+print(False+10)
+print('------------')
+print(bool(18))
+print(bool(0), bool(0.0))
+print('北京欢迎你')
+print(bool(''))
+print(bool(' '))
+print(bool(False))
+print(bool(None))
