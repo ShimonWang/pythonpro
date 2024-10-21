@@ -1,0 +1,20 @@
+import numpy as np
+# a = np.array([1,2,3,4,5])
+# print(a)
+# print(a.dtype)
+# print(a.shape)
+# print(a.ndim)
+# print(a.size)
+# print(type(a))
+#
+# print('a.itemsize', a.itemsize)
+# print('a.flags', a.flags)
+# print('a.real', a.real)
+# print('a.imag', a.imag)
+# print('a.data', a.data)
+
+a = np.random.random(4)
+print(a.dtype)
+a = np.array([[1,2,3,4,5],[6,7,8,9,10]],dtype=complex)
+print(a)
+print(a.dtype)
