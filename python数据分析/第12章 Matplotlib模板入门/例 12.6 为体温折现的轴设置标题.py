@@ -20,6 +20,6 @@ plt.rcParams['ytick.direction'] = 'in'
 # plt.xticks(range(1, 15, 1))
 plt.xticks(range(1, 15, 1), dates)
 plt.yticks(np.arange(34.4, 38, 0.2))
-# print(np.arange(34.4, 38, 0.2))
+# print(np.arange(34.4, 38, 0.2))  # stop:区间结束。该区间不包括此值，除非在某些情况下步长不是整数且浮点数舍入影响输出长度。
 # print(np.arange(1, 12, 1))
 plt.show()
